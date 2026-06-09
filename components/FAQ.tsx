@@ -32,16 +32,16 @@ const faqs = [
 ]
 
 export default function FAQ() {
-  const [open, setOpen] = useState<number | null>(0)
+  const [open, setOpen] = useState<number | null>(null)
 
   return (
-    <section id="faq" className="py-24" style={{ background: '#f8fafc' }}>
+    <section id="faq" className="py-12" style={{ background: '#f8fafc' }}>
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-14">
-          <span className="tag tag-purple mb-4 inline-block" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+          <span className="tag tag-purple mb-4 inline-block" style={{ fontFamily: 'Raleway, sans-serif' }}>
             FAQ
           </span>
-          <h2 className="text-4xl font-bold" style={{ color: '#241538', fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-4xl font-bold" style={{ color: '#241538', fontFamily: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" }}>
             Frequently Asked Questions
           </h2>
         </div>
@@ -66,21 +66,21 @@ export default function FAQ() {
                   style={{
                     background: open === i ? 'rgba(111,70,152,0.1)' : '#f3f4f6',
                     color: open === i ? '#6f4698' : '#9ca3af',
-                    fontFamily: 'Syne, sans-serif',
+                    fontFamily: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif",
                   }}
                 >
                   {open === i ? '−' : '+'}
                 </span>
                 <span
                   className="font-semibold text-gray-800 flex-1"
-                  style={{ fontFamily: 'DM Sans, sans-serif' }}
+                  style={{ fontFamily: 'Raleway, sans-serif' }}
                 >
                   {faq.q}
                 </span>
               </button>
               {open === i && (
                 <div className="px-7 pb-6 pl-[4.75rem]">
-                  <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+                  <p className="text-sm text-gray-500 leading-relaxed" style={{ fontFamily: 'Raleway, sans-serif' }}>
                     {faq.a}
                   </p>
                 </div>

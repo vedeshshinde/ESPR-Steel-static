@@ -18,8 +18,16 @@ module.exports = {
         },
       },
       fontFamily: {
-        display: ['var(--font-display)', 'serif'],
-        body: ['var(--font-body)', 'sans-serif'],
+        sans: ['Raleway', 'sans-serif'],
+        body: ['Raleway', 'sans-serif'],
+        heading: [
+          'Trebuchet MS',
+          'Lucida Sans Unicode',
+          'Lucida Grande',
+          'Lucida Sans',
+          'Arial',
+          'sans-serif',
+        ],
       },
     },
   },

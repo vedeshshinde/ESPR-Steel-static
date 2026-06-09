@@ -2,20 +2,20 @@ export default function Footer() {
   return (
     <footer style={{ background: '#170b24' }}>
       {/* CTA band */}
-      <div style={{ background: 'linear-gradient(135deg, #241538, #6f4698)' }}>
+      <div style={{ backgroundColor: '#241538' }}>
         <div className="max-w-7xl mx-auto px-6 py-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4"
-            style={{ fontFamily: 'Syne, sans-serif' }}>
+            style={{ fontFamily: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" }}>
             Compliant. Traceable. Passport-Ready.
           </h2>
-          <p className="text-blue-200 mb-3 text-lg" style={{ fontFamily: 'DM Sans, sans-serif' }}>
+          <p className="text-blue-200 mb-3 text-lg" style={{ fontFamily: 'Raleway, sans-serif' }}>
             Enable steel products to meet ESPR and Digital Product Passport requirements with verified product-level data.
           </p>
-          <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.5)', fontFamily: 'DM Sans, sans-serif' }}>
+          <p className="text-sm mb-8" style={{ color: 'rgba(255,255,255,0.5)', fontFamily: 'Raleway, sans-serif' }}>
             Blockchain backed Product traceability · Carbon visibility · Recycled content proof · DPP readiness
           </p>
           <div className="inline-flex items-center gap-4 px-8 py-4 rounded-2xl text-sm font-semibold"
-            style={{ background: 'rgba(168,63,150,0.2)', border: '1px solid rgba(168,63,150,0.3)', color: '#d3b8f0', fontFamily: 'DM Sans, sans-serif' }}>
+            style={{ background: 'rgba(168,63,150,0.2)', border: '1px solid rgba(168,63,150,0.3)', color: '#d3b8f0', fontFamily: 'Raleway, sans-serif' }}>
             Preparing companies for EU market access, green steel credibility, and audit-ready compliance.
           </div>
         </div>
@@ -34,11 +34,11 @@ export default function Footer() {
                   <path d="M6 14L9 9L12 14H6Z" fill="white" fillOpacity="0.5" />
                 </svg>
               </div>
-              <span className="font-bold text-white" style={{ fontFamily: 'Syne, sans-serif' }}>
+              <span className="font-bold text-white" style={{ fontFamily: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" }}>
                 Emertech Innovations
               </span>
             </div>
-            <p className="text-sm mb-4 leading-relaxed" style={{ color: 'rgba(255,255,255,0.5)', fontFamily: 'DM Sans, sans-serif' }}>
+            <p className="text-sm mb-4 leading-relaxed" style={{ color: 'rgba(255,255,255,0.5)', fontFamily: 'Raleway, sans-serif' }}>
               Building the operating system for Steel ESPR, CBAM, Carbon Accounting, Traceability, and Digital Product Passports.
             </p>
             <div className="space-y-2">
@@ -48,7 +48,7 @@ export default function Footer() {
                 { label: 'emertech.io', icon: '🌐' },
               ].map(c => (
                 <div key={c.label} className="flex items-center gap-2 text-xs"
-                  style={{ color: 'rgba(255,255,255,0.5)', fontFamily: 'DM Sans, sans-serif' }}>
+                  style={{ color: 'rgba(255,255,255,0.5)', fontFamily: 'Raleway, sans-serif' }}>
                   <span>{c.icon}</span>
                   <span>{c.label}</span>
                 </div>
@@ -58,7 +58,7 @@ export default function Footer() {
 
           {/* Platform */}
           <div>
-            <h4 className="text-sm font-bold text-white mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h4 className="text-sm font-bold text-white mb-4" style={{ fontFamily: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" }}>
               Platform
             </h4>
             <ul className="space-y-2">
@@ -72,7 +72,7 @@ export default function Footer() {
               ].map(item => (
                 <li key={item}>
                   <a href="#platform" className="text-sm transition-colors hover:text-white"
-                    style={{ color: 'rgba(255,255,255,0.45)', fontFamily: 'DM Sans, sans-serif' }}>
+                    style={{ color: 'rgba(255,255,255,0.45)', fontFamily: 'Raleway, sans-serif' }}>
                     {item}
                   </a>
                 </li>
@@ -82,7 +82,7 @@ export default function Footer() {
 
           {/* Solutions */}
           <div>
-            <h4 className="text-sm font-bold text-white mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h4 className="text-sm font-bold text-white mb-4" style={{ fontFamily: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" }}>
               Solutions
             </h4>
             <ul className="space-y-2">
@@ -94,7 +94,7 @@ export default function Footer() {
               ].map(([label, href]) => (
                 <li key={label}>
                   <a href={href} className="text-sm transition-colors hover:text-white"
-                    style={{ color: 'rgba(255,255,255,0.45)', fontFamily: 'DM Sans, sans-serif' }}>
+                    style={{ color: 'rgba(255,255,255,0.45)', fontFamily: 'Raleway, sans-serif' }}>
                     {label}
                   </a>
                 </li>
@@ -106,7 +106,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
           style={{ borderTop: '1px solid rgba(255,255,255,0.08)' }}>
-          <p className="text-xs" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: 'DM Sans, sans-serif' }}>
+          <p className="text-xs" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: 'Raleway, sans-serif' }}>
             © 2024 Emertech Innovations. All rights reserved. Proprietary & Confidential.
           </p>
           <div className="flex items-center gap-3">
@@ -116,7 +116,7 @@ export default function Footer() {
                   background: 'rgba(168,63,150,0.1)',
                   color: 'rgba(168,63,150,0.7)',
                   border: '1px solid rgba(168,63,150,0.15)',
-                  fontFamily: 'DM Sans, sans-serif',
+                  fontFamily: 'Raleway, sans-serif',
                 }}>
                 {tag}
               </span>

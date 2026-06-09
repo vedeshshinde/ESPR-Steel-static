@@ -5,7 +5,6 @@ import WhatIsESPR from '../components/WhatIsESPR'
 import WhyESPR from '../components/WhyESPR'
 import Platform from '../components/Platform'
 import Workflow from '../components/Workflow'
-import DPPSection from '../components/DPPSection'
 import FAQ from '../components/FAQ'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
@@ -24,7 +23,6 @@ export default function Home() {
         <WhyESPR />
         <Platform />
         <Workflow />
-        <DPPSection />
         <FAQ />
         <Contact />
       </main>
